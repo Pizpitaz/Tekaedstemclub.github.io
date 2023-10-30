@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <style>
+        body {
+    font-family: Arial, sans-serif;}
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+}
+
+.contact-form h1 {
+    text-align: center;
+}
+
+.contact-form form {
+    text-align: center;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact-form button {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+}
+
+.contact-info h2 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+</style>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Tekaed.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="contact-form">
+        <h1>Contact Us</h1>
+        <form action="process_contact.php" method="post">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <input type="text" name="subject" placeholder="Subject">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <address>
+            <p>Tekaed stem club</p>
+            <p>32 Olaya street, surulere.</p>
+            <p>Lagos State.</p>
+            <p>Phone: +2348093606095</p>
+            <p>Email: tekaedstemclub@gmail.com</p>
+        </address>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Tekaed stem club</p>
+    </footer>
+</body>
+</html>
+
+
